@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="links-container">
+            <a href="#" onclick="switchView('table')">Table View</a>
+            <a href="#" onclick="switchView('grid')">Grid View</a>
+        </div>
+
+        <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category" />
+    </header>
+    <div class="row" id="contentContainer">
+        <div class="content-div">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
